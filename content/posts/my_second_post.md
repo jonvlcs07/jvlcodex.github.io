@@ -1,11 +1,11 @@
 ---
 title: "My second Post"
-date: 2020-09-03T17:27:59+07:00
+date: 2021-04-17
 math: true
 ---
-<style>
-.red {color: red}
-</style>
+
+#My first ad foremost Post
+a
 
 Here's an example blog post.
 
