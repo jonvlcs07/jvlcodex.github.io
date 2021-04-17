@@ -1,0 +1,28 @@
+baseURL = "https://mynewhugosite.com"
+title = "Hagakure"
+
+[menu]
+  [[menu.main]]
+    identifier = "Archive"
+    name = "Archive"
+    url = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 20
+
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      tabWidth = 4
+      noClasses = false
+      style = "monokai"
+      pygmentsUseClasses = true
+      pygmentsCodefences = true
