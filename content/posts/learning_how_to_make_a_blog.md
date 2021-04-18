@@ -1,11 +1,12 @@
 ---
-title: "My First Post"
-date: 2020-09-03T17:27:59+07:00
+title: "Learning How to Make a Blog"
+date: 2021-04-15
 ---
 
 # My First and Foremost Post
 >In which I explain how I made this website and everything I've learned in the process
-> including  html, css, design, webdesign, hugo, go and Javascript.  
+> including  html, css, design, webdesign, hugo, go and Javascript.  If you are like me
+> learning how to create a blog post please have a seat a join in this incredible storytell.
 
 Here's an example blog post.
 
