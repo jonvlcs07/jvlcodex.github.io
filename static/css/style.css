@@ -105,20 +105,15 @@ blockquote {
     margin-bottom: 1rem;
   }
   
-  .archive_page a {
+.archive_page a {
     color:  #E33654;
   }
 
-  .archive_page a:hover {
-    border-bottom: none;
+.archive_page a:hover {
     text-decoration:underline solid #f11e41;    
   }
-.post-snippet a {
-  color: red;
-  text-decoration: none;
-  border-bottom: none;
-}
-  .post-snippet h3 {
+
+ .post-snippet h3 {
     margin-bottom: 0.25rem;
   }
 
