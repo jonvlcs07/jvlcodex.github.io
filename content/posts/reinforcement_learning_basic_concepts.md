@@ -30,9 +30,12 @@ Essa é uma**{{< rawhtml >}}
 
 $$x=a$$
 
+$$ e = mc^2 $$
+
 ```python 
 def func():
-a
+    print('Hello world')
+
 ```
 
 

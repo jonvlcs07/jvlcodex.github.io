@@ -7,33 +7,67 @@
 
 
 body {
-    background-color: #fff;
-    color: #111;
-    font-family: "Avenir";
-    font-size: 18.5px;
-    /* font-size: 100%; */
-    line-height: 1.5;
-    max-width: 45rem;
-    padding: 1rem;
-    margin: 0 auto;
-    -webkit-font-smoothing: antialiased;
-  }
+  font-size: 17px;
+  line-height: 1.6em;
+
+  font-family: 'Century';
+  color: #111;
+
+  background-color: #ffffff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   
-  a {
-    color: #272727;
-    text-decoration:none;
-    display: inline;
+  /* Aqui ajusta o enquadramento da página  */
+  max-width: 50rem;
+  min-width: 320px;
+  margin: 0 auto;
+
+  position: relative;
+  z-index: 1;
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 30px;
+
+}
+
+/* Titulo do Post */
+h1:first-of-type {
+  text-align: center;
+  font-size: 2.5em;
+
+}
+
+h2 {
+  margin-bottom: 3.5px;
+}
+
+a {
+  color: #272727;
+  text-decoration:none;
+  display: inline;
+
   }
-  
+
+
+  /*  */
 blockquote {
-    color: #777777;
-    border-left: 4px solid #bbbbbb;
-    padding: 10px;
+    color:#111;
+    border: 1px solid;
+    border-color: #bbb;
     margin: 10px;
-    padding-left: 25px;
+
+    padding: 0.9rem 1.25rem 0.95rem 1.25rem;
     font-size: 0.95em;
     background: #f0f0f0;
     font-weight: 400;
+}
+
+/* O primeiro blockquote é o Abstract */
+blockquote:first-of-type {
+  max-width: 70%;
+  margin: 30px auto;
 }
 
 /* --- Content --- */
@@ -57,8 +91,15 @@ blockquote {
 /* --- Navigation Bar --- */
   
 .site-nav {
+    position: relative; /* I've to figure out what it means */
     margin-top: 0;
-    display: inline-flex;
+    display: flex;
+    width: 100%;
+    padding: 0 13px;
+    border-bottom: 2px solid #EAEDF0;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 60px;
 }
   
 .site-nav a:hover {
@@ -67,24 +108,25 @@ blockquote {
 
 /* Logo no caso hagakure */
   .site-nav .logo {
+    position: relative;
+    top: 1px;
     font-size: 26.8125px;
     font-weight: bold;
-    display: inline-flex;
+    margin-left: 2px;
     padding-left: 0;
     
   }
   
-.main-menu {
+.site-nav .main-menu {
+    position: relative;
     display: inline-flex;
-    list-style: none;
-    margin: 0;
+    top: 5px;
     margin-left: 500px;
-    margin-right: 0;
-    padding: 0;
+    padding-bottom: 0;
+
 }
 
 .main-menu a {
-    display: inline-flex;
     margin-right: 10px;
 }
   
@@ -107,6 +149,10 @@ blockquote {
   margin-bottom: 2rem;
 
 } 
+
+.archive_page h1 {
+  margin-bottom: 40px;
+}
 
 .post-snippet {
     margin-bottom: 1rem;
