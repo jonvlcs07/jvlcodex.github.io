@@ -100,14 +100,15 @@ blockquote:first-of-type {
     justify-content: space-between;
     margin-top: 8px;
     margin-bottom: 60px;
+    
 }
   
 .site-nav a:hover {
     color: #E33654;
 }
 
-/* Logo no caso hagakure */
-  .site-nav .logo {
+/* Site logo Aruna*/
+.logo {
     position: relative;
     top: 1px;
     font-size: 26.8125px;
@@ -116,10 +117,11 @@ blockquote:first-of-type {
     padding-left: 0;
     
   }
-  
-.site-nav .main-menu {
+
+/* Site navigation links */
+.main-menu {
     position: relative;
-    display: inline-flex;
+    display: flex;
     top: 5px;
     margin-left: 500px;
     padding-bottom: 0;
