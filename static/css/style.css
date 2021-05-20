@@ -131,7 +131,11 @@ blockquote:first-of-type {
 .main-menu a {
     margin-right: 10px;
 }
-  
+
+.main-menu > li {
+  display: inline;
+}
+
 /* Isso Aqui eu não sei para que serve, depois tenho que ver se vou querer ficar */
   @media screen and (max-width: 48rem) {
     .site-nav,
