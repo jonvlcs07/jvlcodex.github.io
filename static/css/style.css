@@ -88,7 +88,7 @@ blockquote:first-of-type {
   }
 
 
-/* --- Main Navigation Bar --- */
+/* --- Main-Navigation Bar --- */
   
 .site-nav {
     position: relative; /* I've to figure out what it means */
@@ -128,6 +128,7 @@ blockquote:first-of-type {
 
 }
 
+
 .main-menu a {
     margin-right: 10px;
 }
@@ -156,12 +157,19 @@ blockquote:first-of-type {
 
 } 
 
+/* .archive_page body {
+  font-size: 4px;
+} */
+
 .archive_page h1 {
   margin-bottom: 40px;
 }
 
 .post-snippet {
-    margin-bottom: 1rem;
+    list-style-type: space-counter;
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
   }
   
 .archive_page a {
@@ -172,10 +180,15 @@ blockquote:first-of-type {
     text-decoration:underline solid #f11e41;    
   }
 
- .post-snippet h3 {
-    margin-bottom: 0.25rem;
-  }
 
+.post-link {
+  display: block;
+}
+
+time {display: inline-flex;
+  align-self: flex-end;
+
+}
 
 
 /* --- Footer ---  */

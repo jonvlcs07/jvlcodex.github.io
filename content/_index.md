@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-# Welcome to my Personal Blog
+# Blog
 
 ---
 
