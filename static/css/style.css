@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
 
 body {
   font-size: 17px;
@@ -24,6 +27,8 @@ body {
 
   position: relative;
   z-index: 1;
+
+  height: 100%;
 }
 
 hr {
@@ -73,6 +78,7 @@ blockquote:first-of-type {
 /* --- Content --- */
   .content {
     margin-bottom: 2rem;
+    min-height: 75%;
   }
   
 
@@ -154,25 +160,21 @@ blockquote:first-of-type {
 
 .archive_page {
   margin-bottom: 2rem;
+  min-height: 75%
 
 } 
-
-/* .archive_page body {
-  font-size: 4px;
-} */
 
 .archive_page h1 {
   margin-bottom: 40px;
 }
 
 .post-snippet {
-    list-style-type: space-counter;
-    display: flex;
     margin-bottom: 0.5rem;
     justify-content: space-between;
   }
   
 .archive_page a {
+    display: inline-flex;
     color:  #E33654;
   }
 
@@ -181,20 +183,18 @@ blockquote:first-of-type {
   }
 
 
-.post-link {
+.post_date {
   display: block;
-}
-
-time {display: inline-flex;
-  align-self: flex-end;
-
+  float: right;
 }
 
 
 /* --- Footer ---  */
 
 .site-footer {
-  right: 0;
+    position: relative;
+    bottom: 20%;
+    right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
@@ -202,5 +202,5 @@ time {display: inline-flex;
     font-size: 16.4375px;
     color: #828282;
     clear: both;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
