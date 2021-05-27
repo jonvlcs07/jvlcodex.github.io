@@ -8,8 +8,6 @@ I was raised and I'm currently living in [SC-Florianópolis](https://en.wikipedi
 Graduated at UFSC in Electrical Engineering, and now I'm doing a masters degree.
 I've been working as a data scientist at an up and coming startup for the last two years.
 
----
-
 ## Now
 - I'm learning a little about web development so I can start this blog up.
 - Currently doing a masters degree at UFSC, focusing more on machine learning and digital signal processing.

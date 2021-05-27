@@ -4,7 +4,8 @@ date: 2021-04-17
 math: true
 ---
 
-# Basic Concepts of Reiforcement Learning
+# Basic Concepts <br> of Reiforcement Learning
+
 >In which I explain what is reinforcement learning, where it fits in the whole as a machine learning paradigm.
 >Some of the basic concepts of reinforcement how they interact with each other and some possible directions.
 

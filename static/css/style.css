@@ -10,18 +10,21 @@ html {
 }
 
 body {
-  font-size: 17px;
-  line-height: 1.6em;
+  font-size: 17.5px;
+  line-height: 1.55em;
 
   font-family: 'Century';
-  color: #111;
+  /* color: #111; */
+  /* color: #494b4d; */
+  /* color: #404244; */
+  color: #3c3d3f;
 
   background-color: #ffffff;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   
   /* Aqui ajusta o enquadramento da página  */
-  max-width: 50rem;
+  max-width: 42rem;
   min-width: 320px;
   margin: 0 auto;
 
@@ -29,6 +32,10 @@ body {
   z-index: 1;
 
   height: 100%;
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 hr {
@@ -45,7 +52,7 @@ h1:first-of-type {
 }
 
 h2 {
-  margin-bottom: 3.5px;
+  margin-bottom: 0.5em;
 }
 
 a {
@@ -58,7 +65,9 @@ a {
 
   /*  */
 blockquote {
-    color:#111;
+    /* color:#111; */
+      color: #5D6063;
+
     border: 1px solid;
     border-color: #bbb;
     margin: 10px;
