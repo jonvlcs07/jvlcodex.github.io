@@ -103,6 +103,29 @@ blockquote:first-of-type {
   }
 
 
+/* --- Content Header --- */
+
+.post_header {
+  margin: 1em 1em;
+  border: 1px solid red;
+
+}
+
+.post_header .post_title{
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.post_tags {
+
+}
+
+.date_info {
+    color: #828282;
+    font-style: italic;
+
+}
+
 /* --- Main-Navigation Bar --- */
   
 .site-nav {
