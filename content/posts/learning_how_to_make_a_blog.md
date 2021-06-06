@@ -4,7 +4,6 @@ date: 2021-04-15
 tags: ["web_dev", "learning"]
 ---
 
-# My First and Foremost Post
 
 >In which I explain how I made this website and everything I've learned in the process
 > including  html, css, design, webdesign, hugo, go and Javascript.  If you are like me
