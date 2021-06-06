@@ -105,23 +105,46 @@ blockquote:first-of-type {
 
 /* --- Content Header --- */
 
-.post_header {
-  margin: 1em 1em;
-  border: 1px solid red;
-
-}
-
-.post_header .post_title{
+.post_title{
   text-align: center;
-  font-size: 2.5em;
+  font-size: 1.0em;
+  margin-bottom: 1em;
+  line-height: 2.8em;
 }
+
+.post_header {
+  display: flex;
+  margin: 1em 1em;
+  justify-content: space-between;
+
+
+}
+
 
 .post_tags {
+  display: flex;
+  justify-self: self-start;
+  align-self: flex-start;
+  list-style-type: none;
+  margin-bottom: 0.2em;
+
+}
+
+
+.tag {
+  line-height: 20px; 
+  font-size: 14.5px;
+  display: inline;
+  margin-left: 5px;
+  padding: 0.5px 4px;
+  border: 0.005px solid #3c3d3f;
+  border-radius: 5px;
 
 }
 
 .date_info {
-    color: #828282;
+    font-size: 15px;  
+    color: #3c3d3f;
     font-style: italic;
 
 }
@@ -161,11 +184,9 @@ blockquote:first-of-type {
     position: relative;
     display: flex;
     top: 5px;
-    margin-left: 500px;
     padding-bottom: 0;
 
 }
-
 
 .main-menu a {
     margin-right: 10px;

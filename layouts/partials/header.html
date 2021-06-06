@@ -38,3 +38,26 @@
 {{ partial "nav.html" . }}
 
 <main class="content">
+
+<div class = "post_title">
+	<h1> {{ .Title }}  </h1> 
+</div>
+	<header class ="post_header">
+
+    <ul class = 'post_tags'>
+        <li class = 'tag'>tag_teste</li>
+        <li class = 'tag'>tag1</li>
+    </ul>
+
+	{{ $date:= .Date.Format "2006-01-02" }}
+	{{ $lastmod := .Lastmod.Format "2006-01-02" }}
+
+    <div class = 'date_info'>
+		<time title = 'Creation date'>Published: {{ $date }} </time>  <br>
+		{{ if ne $lastmod $date }}
+			<time title = 'Last major modification date'>Modified: {{ $lastmod }}</time>
+		{{ end }}
+    </div>
+
+</header>
+</div>

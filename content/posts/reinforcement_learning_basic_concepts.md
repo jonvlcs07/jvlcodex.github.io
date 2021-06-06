@@ -1,15 +1,12 @@
 ---
-title: "Reinforcement Learning Concepts from a Begginers Perspective"
+title: "Basic Concepts of Reiforcement Learning"
 date: 2021-04-17
+lastmod: 2021-05-17
 math: true
 ---
 
-# Basic Concepts <br> of Reiforcement Learning
-
-
 >In which I explain what is reinforcement learning, where it fits in the whole as a machine learning paradigm.
 >Some of the basic concepts of reinforcement how they interact with each other and some possible directions.
-
 
 ## Reinforcement Learning
 
