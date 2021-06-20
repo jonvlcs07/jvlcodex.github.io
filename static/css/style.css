@@ -14,9 +14,6 @@ body {
   line-height: 1.55em;
 
   font-family: 'Century';
-  /* color: #111; */
-  /* color: #494b4d; */
-  /* color: #404244; */
   color: #3c3d3f;
 
   background-color: #ffffff;
@@ -24,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   
   /* Aqui ajusta o enquadramento da página  */
-  max-width: 42rem;
+  max-width: 50rem;
   min-width: 320px;
   margin: 0 auto;
 
@@ -51,7 +48,7 @@ h1:first-of-type {
 
 }
 
-h2 {
+h2, h3 {
   margin-bottom: 0.5em;
 }
 
@@ -78,6 +75,11 @@ blockquote {
     font-weight: 400;
 }
 
+ul, ol {
+  padding-left: 42px;
+  margin-bottom: 1em;
+}
+
 /* O primeiro blockquote é o Abstract */
 blockquote:first-of-type {
   max-width: 70%;
@@ -86,6 +88,7 @@ blockquote:first-of-type {
 
 /* --- Content --- */
   .content {
+    
     margin-bottom: 2rem;
     min-height: 75%;
   }
@@ -127,23 +130,25 @@ blockquote:first-of-type {
   align-self: flex-start;
   list-style-type: none;
   margin-bottom: 0.2em;
+  /* border: 1px solid red; */
 
 }
 
 
 .tag {
   line-height: 20px; 
-  font-size: 14.5px;
+  font-size: 16.0px;
   display: inline;
-  margin-left: 5px;
-  padding: 0.5px 4px;
+  margin-left: 7px;
+  padding: 2.5px 4px;
   border: 0.005px solid #3c3d3f;
   border-radius: 5px;
+  /* border: 1px solid red; */
 
 }
 
 .date_info {
-    font-size: 15px;  
+    font-size: 17.0px;  
     color: #3c3d3f;
     font-style: italic;
 
@@ -246,13 +251,13 @@ blockquote:first-of-type {
 
 .site-footer {
     position: relative;
-    bottom: 20%;
+    bottom: 10%;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
     text-align: center;
-    font-size: 16.4375px;
+    font-size: 19.0px;
     color: #828282;
     clear: both;
     margin-bottom: 10px;

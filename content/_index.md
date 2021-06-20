@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-# Blog
+# JVL Codex
 
 ---
 
