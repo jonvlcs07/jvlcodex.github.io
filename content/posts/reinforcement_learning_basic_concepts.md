@@ -18,7 +18,7 @@ Reinforcement learining — RL — seems to be the hot topic in machine learning
 
 This makes it possible to formulate and understand 99% of reinforcement learning problems. This article explains what RL represents at a high level and the basic ideas. This, I believe, is enough to understand the basics of anything related to reinforcement learning.
 
-## Big Picture
+## The Big Picture
 
 Reinforcement learning like machine learning can be described in very simple terms like creating a computer program that learns from data, and after learning performs some action when more data is presented to it. Simple as that, we don't need to complicate it further in this article. Specifically in Reinforcement Learning, learning takes place through interactions in certain situations and depending on the situation and action, it ends up receiving more or less rewards.
 
@@ -50,4 +50,14 @@ Environment is everything that is not considered the agent. In our case of a tic
 
 States are the situations and information that make up the environment. We can say that the environment is composed of all possible states and states are the situations that arise for the agent through interaction with the environment. In mathematical terms these states are represented by data or variables that represent each state.
 
-The states in our example would be all possible combinations of a tic-tac-toe game. Each time a player makes a move, the game configuration, the board as a whole and which squares are occupied and empty, changes and a new state appears to the agent.
+The states in our example would be all possible combinations of a tic-tac-toe game. Each time a player makes a move, the game configuration, the board as a whole and which squares are occupied and empty, change and a new state appears to the agent.
+
+It is important to mention that in the literature there is a subtle distinction between the states already mentioned above and the states that our agent actually receives information about, known as observations because they are states that are actually observed by the agent. States represent all possible information including the ones that the agent does not have access to. The term States ends up being used much more frequently, even when one is actually talking about observations.
+
+In our tic-tac-toe game, the states, which include information that our agent does not have access to, would include the opponent's thoughts and their future moves, whereas the observations would only be the information the ones that the agent has access, the configurations of the the pieces on the board.
+
+Mathematically, states are described through:
+
+$$ s \in S $$
+
+a state $s$ belonging to the set of all possible states $S$.
