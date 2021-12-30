@@ -22,4 +22,20 @@ Essa é uma**{{< rawhtml >}}
 
 #tags
 
+<p class="red">red text</p>
 
+Essa é uma**{{< rawhtml >}}
+<span style="color: #e01f1f;">  Rubrica </span>
+{{< /rawhtml >}}** em html
+
+#tags  oi $ x$
+
+$$x=a$$
+
+$$ e = mc^2 $$
+
+```python 
+def func():
+    print('Hello world')
+
+```

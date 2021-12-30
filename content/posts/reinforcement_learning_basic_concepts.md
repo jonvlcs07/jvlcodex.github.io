@@ -1,7 +1,7 @@
 ---
 title: "Concepts to Understand Reinforcement Learning"
 date: 2021-04-17
-lastmod: 2021-05-17
+# lastmod: 2021-05-17
 tags: ["reinforcement-learning", "introductory"]
 math: true
 ---

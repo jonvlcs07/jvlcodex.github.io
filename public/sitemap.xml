@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mynewhugosite.com/posts/reinforcement_learning_basic_concepts/</loc>
+    <lastmod>2021-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/</loc>
+    <lastmod>2021-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/tags/introductory/</loc>
+    <lastmod>2021-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/posts/</loc>
+    <lastmod>2021-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/tags/reinforcement-learning/</loc>
+    <lastmod>2021-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/tags/</loc>
+    <lastmod>2021-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/tags/learning/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/posts/learning_how_to_make_a_blog/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/tags/web_dev/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mynewhugosite.com/about/</loc>
+  </url><url>
+    <loc>https://mynewhugosite.com/categories/</loc>
+  </url>
+</urlset>
