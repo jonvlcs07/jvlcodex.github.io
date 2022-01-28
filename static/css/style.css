@@ -35,6 +35,12 @@ p {
   margin-bottom: 1em;
 }
 
+p code {
+        font-size: 16.5px;
+        background-color: #eeeeee;
+     }
+
+
 hr {
   margin-top: 5px;
   margin-bottom: 30px;
@@ -81,10 +87,19 @@ ul, ol {
 }
 
 /* O primeiro blockquote é o Abstract */
-blockquote:first-of-type {
-  max-width: 70%;
-  margin: 30px auto;
+/* blockquote:first-of-type { */
+/*   max-width: 70%; */
+/*   margin: 30px auto; */
+/* } */
+
+#first_page_quote {
+                  font-size: 0.9em; 
+                  max-width: 90%;
+                  margin: 30px auto;
+                  background: #ffffff;
+                  border: none;
 }
+
 
 /* --- Content --- */
   .content {
@@ -177,7 +192,7 @@ blockquote:first-of-type {
 .logo {
     position: relative;
     top: 1px;
-    font-size: 26.8125px;
+    font-size: 30.8125px;
     font-weight: bold;
     margin-left: 2px;
     padding-left: 0;
@@ -214,6 +229,83 @@ blockquote:first-of-type {
     }
   }
   
+
+/* --- Home Page --- */
+
+.summary_box {
+              font-size: 0.90em;
+              border: 0.11em solid;
+              padding: 1.0em;
+              margin-top: 0.01em;
+              margin-bottom: 3.0em;
+             }
+
+#summary_title_link {
+              position: relative;
+              top: 2px;
+              color: #3c3d3f;
+              font-weight: bold;
+              font-size: 1.5em;
+              margin-bottom: -5.110em;
+              margin-left: 0.3em;
+              border-bottom: none;
+              /* border: 1px solid red; */
+              
+             }
+
+#summary_title_link:hover {
+              color: #E33654;
+              border-bottom: 0px;
+              text-decoration: none;    
+             }
+
+.post_preview_metadata {
+                       display: flex;
+                       margin-top: 0em;
+                       justify-content: space-between;
+                       padding: 0.000px;
+                       /* border: 1px solid red; */ 
+
+             }
+
+.post_preview_date_box {
+                    display: flex;
+                    margin-left: 0.35em;
+                    
+                   }
+
+.post_preview_date {
+                    font-size: 17.5px;  
+                    color: #777879;
+                    font-style: italic;
+                    margin-left: 0.6em;
+                   }
+
+
+
+.post_preview_tags {
+  display: flex;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-bottom: 0.2em;
+  margin-right: 0.8em;
+
+}
+
+
+.post_preview_tag {
+  line-height: 15px; 
+  font-size: 14.5px;
+  display: inline;
+  margin-left: 7px;
+  padding: 2.5px 4px;
+  border: 0.008px solid #3c3d3f;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+
+}
+
+
 /* --- Archive Page ---  */
 
 .archive_page {

@@ -2,6 +2,8 @@
 title: "Learning How to Make a Blog"
 date: 2021-04-15
 tags: ["web_dev", "learning"]
+math: true
+
 ---
 
 
@@ -27,6 +29,9 @@ Essa é uma**{{< rawhtml >}}
 Essa é uma**{{< rawhtml >}}
 <span style="color: #e01f1f;">  Rubrica </span>
 {{< /rawhtml >}}** em html
+
+
+{{< image src="images/raiar_circular.jpg" size="400x" image="images/raiar_circular.jpg">}}
 
 #tags  oi $ x$
 

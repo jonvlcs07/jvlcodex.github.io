@@ -1,0 +1,28 @@
+<!-- Utilizes "image" as a named argument for image path relative to assets -->
+{{$imagepath := resources.GetMatch (.Get "image")}}
+
+<!-- Utilizes "size" as a named argument for image resizing -->
+{{$size := (.Get "size")}}
+
+{{$image := $imagepath.Resize $size }}
+{{$modified_image := ($image).RelPermalink}}
+
+
+<!-- Style of the image -->
+<style>
+.aligncenter {
+              text-align: center;
+              display: block;
+             }
+</style>
+
+<!-- <p>Debug: path={{$imagepath}} size= {{$size}}  </p> -->
+
+
+<p class="aligncenter">
+        <img src="{{ $modified_image }}" 
+             align="centered image"/>
+</p>
+
+
+

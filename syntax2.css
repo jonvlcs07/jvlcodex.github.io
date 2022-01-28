@@ -1,25 +1,8 @@
 /* Background */ .chroma { color: #586e75; background-color: #eee8d5 }
-
-/* Custom Cofingurations */ 
-.chroma { font-size: 0.7em; 
-          line-height: 1.3em;
-          border: 0.5px solid black;
-          padding: 6px;
-          margin-top: 1.3em; 
-          margin-bottom: 1.3em; 
-          border-radius: 4px;
-        }
-
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err {  }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
-/* LineTable */ .chroma .lntable { border-spacing: 0;
-                                   padding: 0; 
-                                   /* margin: 0; */ 
-                                   width: auto;
-                                   overflow: auto; 
-                                   display: block; }
-
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
 /* LineHighlight */ .chroma .hl { display: block; width: 100%;background-color: #ffffcc }
 /* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
 /* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }

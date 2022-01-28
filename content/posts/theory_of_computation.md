@@ -9,3 +9,7 @@ math: true
 
 
 This is how
+
+{{< image  size="300x" image="images/posts/turing_machine.png">}}
+
+<img src='/images/turing_machine.png'/>

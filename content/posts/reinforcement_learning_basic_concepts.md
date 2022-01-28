@@ -4,6 +4,7 @@ date: 2021-04-17
 # lastmod: 2021-05-17
 tags: ["reinforcement-learning", "introductory"]
 math: true
+
 ---
 
 >In which I explain what is reinforcement learning, where it fits in the whole as a machine learning paradigm.
@@ -39,6 +40,7 @@ Now that we have in mind what reinforcement learning represents as a whole, we n
 Since these concepts are rather abstract, we'll use a simple and practical example like a tic-tac-toe game. In a tic-tac-toe game we are creating a program whose goal is to win most of the games played and games against opponents (human or other programs) learn to win more games in the future.
 
 ### The Agent
+
 
 The first element is the agent that represents the program programmed to play Tic-Tac-Toe. In RL the agent is any entity that is performing actions and receiving rewards. In practice it does not necessarily need to be a computer program, it can be a mechanism or even a living being depending on the problem. However for most purposes it is an algorithm that someone ends up programming, meaning a computer program :P.
 

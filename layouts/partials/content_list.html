@@ -1,0 +1,53 @@
+<!-- Partial that gets post previews in the front page -->
+
+{{$site_variables := .Site.RegularPages }}
+
+{{ range $site_variables }}
+
+    {{ if in . "posts" }} 
+    <a id="summary_title_link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+
+
+    <div class="post_preview_metadata">
+
+
+        <div class="post_preview_date_box">
+            {{ $lastmod := .Lastmod.Format "2006-01-02" }}
+            {{ $date_published := .Date.Format "2006-01-02" }}
+        
+
+            <time title='First publication date' class='post_preview_date' datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ $date_published  }}
+            </time>
+
+            
+            {{ if ne $lastmod $date_published }}
+
+            <time title='Last major modification date' class='post_preview_date'>
+              {{ $lastmod  }}
+            </time>
+             
+            {{ end }}
+        </div>
+
+        <ul class = 'post_preview_tags'>
+            {{ $tags := .Params.tags }}
+            {{ range $tag := $tags}}
+                <li class = 'post_preview_tag'>{{ $tag }}</li>
+            {{end}} 
+        </ul>
+
+    </div>
+
+
+
+    <div class="summary_box">
+    {{ .Summary }}
+    </div>
+
+
+    {{ end }}
+
+{{ end }}
+

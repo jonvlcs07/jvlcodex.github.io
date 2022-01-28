@@ -1,0 +1,34 @@
+<!-- Examples to learn Go templates -->
+
+
+<!-- Text Example -->
+<!-- This is a text and will be rendered unchanged -->
+
+<!-- Actions in Templates -->
+<!-- {{ "Everything between here is an action" }} -->
+<!-- This is a text and will be rendered unchanged -->
+
+<!-- Iterating -->
+
+Here is a .Site.AllPages:
+
+{{$site_variables := .Site.RegularPages }}
+
+{{ range $site_variables }}
+    
+    <p>
+    .Title = {{ .Title }}
+    <p>
+    .Permalink = {{.Permalink}}
+    <p>
+    .RelPermalink = {{.RelPermalink}}
+
+
+{{ end }}
+
+<ul>
+    {{ range .Site.Taxonomies.series.golang }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    {{ end }}
+</ul>
+
