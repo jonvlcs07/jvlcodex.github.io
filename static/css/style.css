@@ -282,7 +282,6 @@ ul, ol {
                    }
 
 
-
 .post_preview_tags {
   display: flex;
   align-self: flex-end;
@@ -302,9 +301,41 @@ ul, ol {
   border: 0.008px solid #3c3d3f;
   border-radius: 5px;
   /* border: 1px solid red; */
+}
+
+#post_preview_tags {
+  display: flex;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-bottom: 0.2em;
+  margin-right: 0.8em;
 
 }
 
+
+#post_preview_tag {
+  line-height: 15px; 
+  font-size: 14.5px;
+  display: inline;
+  margin-left: 7px;
+  padding: 2.5px 4px;
+  border: 0.008px solid #3c3d3f;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+}
+
+
+#post_preview_tag a {
+              color: #3c3d3f;
+              border-bottom: none;
+}
+
+
+#post_preview_tag a:hover {
+    font-weight: bold;
+    color: #E33654;
+    text-decoration: none;    
+  }
 
 /* --- Archive Page ---  */
 

@@ -10,25 +10,41 @@
 
 <!-- Iterating -->
 
-Here is a .Site.AllPages:
 
-{{$site_variables := .Site.RegularPages }}
+<!-- {{$site_variables := .Site.RegularPages }} -->
 
-{{ range $site_variables }}
+<!-- {{ range $site_variables }} -->
     
-    <p>
-    .Title = {{ .Title }}
-    <p>
-    .Permalink = {{.Permalink}}
-    <p>
-    .RelPermalink = {{.RelPermalink}}
+<!--     <p> -->
+<!--     .Title = {{ .Title }} -->
+<!--     <p> -->
+<!--     .Permalink = {{.Permalink}} -->
+<!--     <p> -->
+<!--     .RelPermalink = {{.RelPermalink}} -->
 
+<!-- {{ end }} -->
 
-{{ end }}
 
 <ul>
-    {{ range .Site.Taxonomies.series.golang }}
-        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    {{ range .Site.Taxonomies.tags }}
+    <p> 
+        {{ .Page.Permalink }}
+    <p> 
+        {{ .Page.Title }}
+            <li id=post_preview_tag>
+                <a href="{{ .Page.Permalink }}">
+                    {{ .Page.Title }}
+                </a>
+            </li>
     {{ end }}
 </ul>
 
+
+{{ .Site.Home.Permalink }}tags/
+<p>
+<p>
+
+<!-- {{ .Site.Taxonomies.tags.Permalink }} -->
+<!-- {{ .Site.Taxonomies.tags }} -->
+
+<!-- .Site.Taxonomies.tags -->

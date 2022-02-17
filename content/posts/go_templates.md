@@ -24,6 +24,7 @@ Texto é qualquer coisa que for escrita no html e que será printada sem mudaça
 ```html
 This is a text and will be rendered unchanged
 ```
+
 ```html
 This is a text and will be rendered unchanged
 ```
