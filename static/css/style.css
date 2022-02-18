@@ -303,6 +303,7 @@ ul, ol {
   /* border: 1px solid red; */
 }
 
+/* CSS style that makes tags links */
 #post_preview_tags {
   display: flex;
   align-self: flex-end;

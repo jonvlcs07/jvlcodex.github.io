@@ -44,6 +44,26 @@
 <p>
 <p>
 
+<li id='post_preview_tag'>
+</li>
+
+
+<ul class = 'post_preview_tags'>
+    {{ range $tag := .Site.Taxonomies.tags }}
+        <li id='post_preview_tag'>
+                {{ $tag := .Page.Title }}
+                <a href="{{ .Page.Permalink }}">
+                    {{ $tag }}
+                </a>
+        </li>
+    {{end}} 
+</ul>
+
+<a href="{{ .Site.Home.Permalink }}/tags/learning">
+    link
+</a>
+{{ .Site.Home.Permalink }}tags/
+
 <!-- {{ .Site.Taxonomies.tags.Permalink }} -->
 <!-- {{ .Site.Taxonomies.tags }} -->
 

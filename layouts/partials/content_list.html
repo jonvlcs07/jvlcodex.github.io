@@ -34,7 +34,9 @@
         <ul class = 'post_preview_tags'>
             {{ $tags := .Params.tags }}
             {{ range $tag := $tags}}
-                <li class = 'post_preview_tag'>{{ $tag }}</li>
+                <li id='post_preview_tag'>
+                        {{ $tag }}
+                </li>
             {{end}} 
         </ul>
 
