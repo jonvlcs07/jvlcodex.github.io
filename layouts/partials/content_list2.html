@@ -1,7 +1,5 @@
 <!-- Partial that gets post previews in the front page -->
 
-{{$home := .Site.Home.Permalink }}
-
 {{$site_variables := .Site.RegularPages }}
 
 {{ range $site_variables }}
@@ -34,9 +32,7 @@
             {{ $tags := .Params.tags }}
             {{ range $tag := $tags}}
                 <li id='post_preview_tag'>
-                        <a href={{ $home }}/tags/{{ $tag }}>
-                                {{ $tag }}
-                        </a>
+                        {{ $tag }}
                 </li>
             {{end}} 
         </ul>
@@ -53,5 +49,4 @@
     {{ end }}
 
 {{ end }}
-
 
