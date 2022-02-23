@@ -48,7 +48,7 @@
     <ul class = 'post_tags'>
 	{{ $tags := .Params.tags }}
 	{{ range $tag := $tags}}
-        <li class = 'tag'>
+        <li id = 'tag'>
                 <a href={{ $home }}/tags/{{ $tag }}>
                         {{ $tag }}
                 </a>

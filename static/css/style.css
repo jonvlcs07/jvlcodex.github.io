@@ -162,6 +162,43 @@ ul, ol {
 
 }
 
+
+#post_tags {
+  display: flex;
+  justify-self: self-start;
+  align-self: flex-start;
+  list-style-type: none;
+  margin-bottom: 0.2em;
+  /* border: 1px solid red; */
+
+}
+
+
+#tag {
+  line-height: 20px; 
+  font-weight: bold;
+  font-size: 16.0px;
+  display: inline;
+  margin-left: 7px;
+  padding: 2.5px 4px;
+  border: 0.015px solid #3c3d3f;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+
+}
+
+#tag a {
+              color: #3c3d3f;
+              border-bottom: none;
+}
+
+#tag a:hover {
+    font-weight: bold;
+    color: #E33654;
+    text-decoration: none;    
+  }
+
+
 .date_info {
     font-size: 17.0px;  
     color: #3c3d3f;
@@ -187,6 +224,9 @@ ul, ol {
 .site-nav a:hover {
     color: #E33654;
 }
+
+
+
 
 /* Site logo Aruna*/
 .logo {
@@ -292,16 +332,6 @@ ul, ol {
 }
 
 
-.post_preview_tag {
-  line-height: 15px; 
-  font-size: 14.5px;
-  display: inline;
-  margin-left: 7px;
-  padding: 2.5px 4px;
-  border: 0.008px solid #3c3d3f;
-  border-radius: 5px;
-  /* border: 1px solid red; */
-}
 
 /* CSS style that makes tags links */
 #post_preview_tags {
@@ -316,6 +346,7 @@ ul, ol {
 
 #post_preview_tag {
   line-height: 15px; 
+  font-weight: bold;
   font-size: 14.5px;
   display: inline;
   margin-left: 7px;
@@ -337,6 +368,8 @@ ul, ol {
     color: #E33654;
     text-decoration: none;    
   }
+
+
 
 /* --- Archive Page ---  */
 
