@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jvlcodex.github.io/posts/reinforcement_learning_basic_concepts/</loc>
+    <loc>jvlcodex/posts/reinforcement_learning_basic_concepts/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jvlcodex.github.io/</loc>
+    <loc>jvlcodex/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jvlcodex.github.io/tags/introductory/</loc>
+    <loc>jvlcodex/tags/introductory/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jvlcodex.github.io/posts/</loc>
+    <loc>jvlcodex/posts/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jvlcodex.github.io/tags/reinforcement-learning/</loc>
+    <loc>jvlcodex/tags/reinforcement-learning/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jvlcodex.github.io/tags/</loc>
+    <loc>jvlcodex/tags/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jvlcodex.github.io/about/</loc>
+    <loc>jvlcodex/about/</loc>
   </url><url>
-    <loc>https://jvlcodex.github.io/categories/</loc>
+    <loc>jvlcodex/categories/</loc>
   </url>
 </urlset>

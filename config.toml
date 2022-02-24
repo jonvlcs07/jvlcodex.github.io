@@ -1,4 +1,4 @@
-baseURL = "https://jvlcodex.github.io"
+baseURL = "jvlcodex"
 title = "JVL Codex"
 
 [menu]
