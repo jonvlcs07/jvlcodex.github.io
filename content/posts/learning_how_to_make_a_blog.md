@@ -3,6 +3,7 @@ title: "Learning How to Make a Blog"
 date: 2021-04-15
 tags: ["web_dev", "learning"]
 math: true
+draft: true
 
 ---
 

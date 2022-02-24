@@ -1,4 +1,5 @@
-/* Layout */
+
+/* General Settings */
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +35,12 @@ body {
 p {
   margin-bottom: 1em;
 }
+
+p code {
+        font-size: 16.5px;
+        background-color: #eeeeee;
+     }
+
 
 hr {
   margin-top: 5px;
@@ -80,11 +87,6 @@ ul, ol {
   margin-bottom: 1em;
 }
 
-/* O primeiro blockquote é o Abstract */
-blockquote:first-of-type {
-  max-width: 70%;
-  margin: 30px auto;
-}
 
 /* --- Content --- */
   .content {
@@ -104,6 +106,7 @@ blockquote:first-of-type {
     border-bottom: none;
     text-decoration:underline solid #f11e41;    
   }
+
 
 
 /* --- Content Header --- */
@@ -135,17 +138,30 @@ blockquote:first-of-type {
 }
 
 
-.tag {
+#tag {
   line-height: 20px; 
+  font-weight: bold;
   font-size: 16.0px;
   display: inline;
   margin-left: 7px;
   padding: 2.5px 4px;
-  border: 0.005px solid #3c3d3f;
+  border: 0.015px solid #3c3d3f;
   border-radius: 5px;
   /* border: 1px solid red; */
 
 }
+
+#tag a {
+              color: #3c3d3f;
+              border-bottom: none;
+}
+
+#tag a:hover {
+    font-weight: bold;
+    color: #E33654;
+    text-decoration: none;    
+  }
+
 
 .date_info {
     font-size: 17.0px;  
@@ -153,6 +169,7 @@ blockquote:first-of-type {
     font-style: italic;
 
 }
+
 
 /* --- Main-Navigation Bar --- */
   
@@ -173,11 +190,12 @@ blockquote:first-of-type {
     color: #E33654;
 }
 
+
 /* Site logo Aruna*/
 .logo {
     position: relative;
     top: 1px;
-    font-size: 26.8125px;
+    font-size: 30.8125px;
     font-weight: bold;
     margin-left: 2px;
     padding-left: 0;
@@ -201,7 +219,8 @@ blockquote:first-of-type {
   display: inline;
 }
 
-/* Isso Aqui eu não sei para que serve, depois tenho que ver se vou querer ficar */
+/* Isso Aqui eu não sei para que serve, 
+ * depois tenho que ver se vou querer ficar */
   @media screen and (max-width: 48rem) {
     .site-nav,
     .main-menu {
@@ -214,6 +233,116 @@ blockquote:first-of-type {
     }
   }
   
+
+/* --- Home Page --- */
+
+
+#first_page_quote {
+                  font-size: 0.9em; 
+                  max-width: 90%;
+                  margin: 30px auto;
+                  background: #ffffff;
+                  border: none;
+}
+
+
+.summary_box {
+              font-size: 0.90em;
+              border: 0.11em solid;
+              padding: 1.0em;
+              margin-top: 0.01em;
+              margin-bottom: 3.0em;
+             }
+
+#summary_title_link {
+              position: relative;
+              top: 2px;
+              color: #3c3d3f;
+              font-weight: bold;
+              font-size: 1.5em;
+              margin-bottom: -5.110em;
+              margin-left: 0.3em;
+              border-bottom: none;
+              /* border: 1px solid red; */
+              
+             }
+
+#summary_title_link:hover {
+              color: #E33654;
+              border-bottom: 0px;
+              text-decoration: none;    
+             }
+
+.post_preview_metadata {
+                       display: flex;
+                       margin-top: 0em;
+                       justify-content: space-between;
+                       padding: 0.000px;
+                       /* border: 1px solid red; */ 
+
+             }
+
+.post_preview_date_box {
+                    display: flex;
+                    margin-left: 0.35em;
+                    
+                   }
+
+.post_preview_date {
+                    font-size: 17.5px;  
+                    color: #777879;
+                    font-style: italic;
+                    margin-left: 0.6em;
+                   }
+
+
+.post_preview_tags {
+  display: flex;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-bottom: 0.2em;
+  margin-right: 0.8em;
+
+}
+
+
+#post_preview_tags {
+  display: flex;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-bottom: 0.2em;
+  margin-right: 0.8em;
+
+}
+
+
+#post_preview_tag {
+  line-height: 15px; 
+  font-weight: bold;
+  font-size: 14.5px;
+  display: inline;
+  margin-left: 7px;
+  padding: 2.5px 4px;
+  border: 0.008px solid #3c3d3f;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+}
+
+
+#post_preview_tag a {
+              color: #3c3d3f;
+              border-bottom: none;
+}
+
+
+#post_preview_tag a:hover {
+    font-weight: bold;
+    color: #E33654;
+    text-decoration: none;    
+  }
+
+
+
 /* --- Archive Page ---  */
 
 .archive_page {
@@ -262,3 +391,5 @@ blockquote:first-of-type {
     clear: both;
     margin-bottom: 10px;
 }
+
+
