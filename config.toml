@@ -1,4 +1,4 @@
-# baseURL = "jvlcodex"
+baseURL = "https://jvlcodex.netlify.app/"
 title = "JVL Codex"
 
 [params]
