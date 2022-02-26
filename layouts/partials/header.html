@@ -35,7 +35,6 @@
 
 <body>
 
-{{$home := .Site.Home.Permalink }}
 {{$base := .Site.BaseURL }}
 {{ partial "nav.html" . }}
 
@@ -50,7 +49,6 @@
 	{{ $tags := .Params.tags }}
 	{{ range $tag := $tags}}
         <li id = 'tag'>
-                <!-- <a href={{ $home }}tags/{{ $tag }}> -->
                 <a href={{ $base }}tags/{{ $tag }}>
                         {{ $tag }}
                 </a>
@@ -71,4 +69,3 @@
 </header>
 </div>
 
-DELETAR Home: {{ $home }}

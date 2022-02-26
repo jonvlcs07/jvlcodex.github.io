@@ -1,10 +1,7 @@
 <!-- Partial that gets post previews in the front page -->
 
-{{$home := .Site.Home.Permalink }}
 {{$base := .Site.BaseURL }}
-DELETAR Home: {{ $home }}
 {{$site_variables := .Site.RegularPages }}
-{{ .Site.BaseURL }}
 
 {{ range $site_variables }}
 
@@ -36,7 +33,6 @@ DELETAR Home: {{ $home }}
             {{ $tags := .Params.tags }}
             {{ range $tag := $tags}}
                 <li id='post_preview_tag'>
-                        <!-- <a href={{ $home }}tags/{{ $tag }}> -->
                         <a href={{ $base }}tags/{{ $tag }}>
                                 {{ $tag }}
                         </a>
