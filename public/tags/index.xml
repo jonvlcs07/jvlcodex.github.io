@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on JVL Codex</title>
-    <link>jvlcodex/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on JVL Codex</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="jvlcodex/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>introductory</title>
-      <link>jvlcodex/tags/introductory/</link>
+      <link>/tags/introductory/</link>
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>jvlcodex/tags/introductory/</guid>
+      <guid>/tags/introductory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reinforcement-learning</title>
-      <link>jvlcodex/tags/reinforcement-learning/</link>
+      <link>/tags/reinforcement-learning/</link>
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>jvlcodex/tags/reinforcement-learning/</guid>
+      <guid>/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
     
