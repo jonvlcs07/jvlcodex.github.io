@@ -1,6 +1,9 @@
 # baseURL = "jvlcodex"
 title = "JVL Codex"
 
+[params]
+    mainurl = "https://jvlcodex.netlify.app"
+
 [menu]
   [[menu.main]]
     identifier = "Archive"

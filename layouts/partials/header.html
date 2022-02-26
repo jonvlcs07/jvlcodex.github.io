@@ -49,7 +49,7 @@
 	{{ $tags := .Params.tags }}
 	{{ range $tag := $tags}}
         <li id = 'tag'>
-                <a href={{ $home }}/tags/{{ $tag }}>
+                <a href={{ $home }}tags/{{ $tag }}>
                         {{ $tag }}
                 </a>
         </li>
@@ -68,3 +68,5 @@
 
 </header>
 </div>
+
+DELETAR Home: {{ $home }}

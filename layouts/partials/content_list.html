@@ -2,6 +2,7 @@
 
 {{$home := .Site.Home.Permalink }}
 
+DELETAR Home: {{ $home }}
 {{$site_variables := .Site.RegularPages }}
 
 {{ range $site_variables }}
@@ -53,5 +54,7 @@
     {{ end }}
 
 {{ end }}
+
+
 
 
