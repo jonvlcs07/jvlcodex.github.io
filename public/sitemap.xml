@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/reinforcement_learning_basic_concepts/</loc>
+    <loc>https://jvlcodex.netlify.app/posts/reinforcement_learning_basic_concepts/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://jvlcodex.netlify.app/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/introductory/</loc>
+    <loc>https://jvlcodex.netlify.app/tags/introductory/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://jvlcodex.netlify.app/posts/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/reinforcement-learning/</loc>
+    <loc>https://jvlcodex.netlify.app/tags/reinforcement-learning/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://jvlcodex.netlify.app/tags/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://jvlcodex.netlify.app/about/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://jvlcodex.netlify.app/categories/</loc>
   </url>
 </urlset>
